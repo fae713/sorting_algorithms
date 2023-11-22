@@ -10,7 +10,7 @@ void print_list(const listint_t *list)
 {
 	int x;
 
-	i = 0;
+	x = 0;
 	while (list)
 	{
 		if (x > 0)
@@ -19,5 +19,5 @@ void print_list(const listint_t *list)
 		++x;
 		list = list->next;
 	}
-	printf("\n")
+	printf("\n");
 }
